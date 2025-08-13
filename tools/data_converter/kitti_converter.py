@@ -5,7 +5,7 @@ from collections import OrderedDict
 from nuscenes.utils.geometry_utils import view_points
 from pathlib import Path
 
-from mmdet3d.core.bbox import box_np_ops
+from mmdet3d.structures.ops import box_np_ops
 from .kitti_data_utils import get_kitti_image_info, get_waymo_image_info
 from .nuscenes_converter import post_process_coords
 
